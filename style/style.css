@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+}
+.body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    /* position: relative; */
+
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.conteiner__list{
+    position: relative;
+    
+}
+.header{
+    position: absolute;
+    top:75px;
+    
+}
+.header-list{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 100px;
+}
+.header-list a img{
+    margin-right: 265px;
+    margin-left: 54px;
+    width: 185px;
+    height: 41px;
+
+    /* color:red; */
+    /* background-color: red; */
+    /* display: flex;
+    align-items: center; */
+}
+.header-list ul{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    list-style: none;
+    margin-right: 157px;
+}
+.header-list ul li{
+    width: 48px;
+    height: 24px;
+    top: 38px;
+    left: 505px;
+    width: 48px;
+    height: 24px;
+    top: 38px;
+    left: 505px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.header-list ul li:hover{
+    color: #B88E2F;
+}
+.header-list .imagess{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+.header .header-style{
+    display: flex;
+    align-items: center;
+    padding-left: 99px;
+    background-color: #F9F1E7;
+    width: 1440px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.header .header-style h3{
+    width: 48px;
+    height: 24px;
+    top: 152px;
+    left: 99px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9F9F9F;
+
+}
+.header .header-style img{
+    width: 20px;
+    height: 20px;
+    margin-right: 24px;
+}
+.header .header-style h2{
+    width: 142px;
+    height: 24px;
+    top: 151px;
+    left: 346px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    border-left: 2px solid #9F9F9F;
+    padding-left: 34px;
+    cursor: pointer;
+}
